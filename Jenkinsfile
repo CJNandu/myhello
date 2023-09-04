@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/CJNandu/mymaven2.git'
+                git 'https://github.com/CJNandu/myhello.git'
             }
         }
         stage('ContinuousBuild')
@@ -43,4 +43,3 @@ pipeline
     }
 
 }
-
